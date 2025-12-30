@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
 def garden_operations(n: int):
+    """
+    Docstring for garden_operations function
+    Simulates different garden operations that may raise various errors
+    based on the input parameter n.
+    """
     if (n == 0):
         print(int("abd"))
     if (n == 1):
@@ -12,6 +17,10 @@ def garden_operations(n: int):
 
 
 def test_error_types():
+    """
+    Tests handling of different error types raised by
+    garden_operations function.
+    """
     print("=== Garden Error Types Demo ===\n")
     for i in range(4):
         try:

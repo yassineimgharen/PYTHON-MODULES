@@ -1,20 +1,36 @@
 class GardenError(Exception):
+    """
+    Docstring for GardenError
+    Custom exception for garden errors.
+    """
     pass
 
 
 class PlantError(GardenError):
+    """
+    Custom exception for plant related errors.
+    """
     pass
 
 
 class WaterError(GardenError):
+    """
+    Custom exception for water related errors.
+    """
     pass
 
 
 def plant_problem():
+    """
+    Function that raises a PlantError.
+    """
     raise PlantError("The tomato plant is wilting!")
 
 
 def water_problem():
+    """
+    Function that raises a WaterError.
+    """
     raise WaterError("Not enough water in the tank!")
 
 

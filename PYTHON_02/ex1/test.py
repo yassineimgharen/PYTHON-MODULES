@@ -1,8 +1,8 @@
 try:
     # number = int(input("enter a number: "))
     # print(number)
-    open("non_existent_file.txt", "r")
-    # raise Exception("an error occurred")
+    # open("non_existent_file.txt", "r")
+    raise Exception("an error occurred")
 except ValueError:
     print("Invalid input")
 except ZeroDivisionError:

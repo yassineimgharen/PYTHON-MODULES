@@ -1,4 +1,7 @@
 def check_temperature(temp_str):
+    """
+    Check if the temperature input is valid for plants.
+    """
     try:
         temp_int = int(temp_str)
         if (temp_int < 0):
@@ -16,6 +19,9 @@ def check_temperature(temp_str):
 
 
 def test_temperature_input():
+    """
+    Docstring for test_temperature_input
+    """
     test_inputs = ["25", "abc", "100", "-50"]
     print("=== Garden Temperature Checker ===\n")
     for temp in test_inputs:

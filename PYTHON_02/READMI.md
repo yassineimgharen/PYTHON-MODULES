@@ -11,3 +11,5 @@
 # When you inherit from Exception, your class automatically
 # gets all the behavior that Python expects from an error
 
+***FINALY*** : because resources like files, network connections, can remain open or locked, causing memory leaks, data corruption, or program crashes
+
