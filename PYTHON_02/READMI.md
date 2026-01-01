@@ -1,15 +1,12 @@
-*Except and Reaise*
+***module*** is a file containing Python code (functions, classes, variables) that you can use
+***sys*** sys is a tool (module, built in library) contain vars, fns that lets your Python program interact with the system
+---> [read user input, exit the prog, access specific system infos]
 
-# except	          |  raise
-# Catches an error	  |  Creates an error
-# Handles problems	  |  Reports problems
-# Prevents crash	  |  Causes crash (if not caught)
-# Used after error	  |  Used when detecting error
+***receive external data***
+1-user input
+2-comande line arguments
+3-reading files
+4-network data
 
-# raise stop the whole program if u not caught it
-
-# When you inherit from Exception, your class automatically
-# gets all the behavior that Python expects from an error
-
-***FINALY*** : because resources like files, network connections, can remain open or locked, causing memory leaks, data corruption, or program crashes
-
+***tuple***
+Tuples are unchangeable, we cannot change, add or remove items after the tuple has been created
